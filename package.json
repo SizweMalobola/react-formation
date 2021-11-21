@@ -1,0 +1,25 @@
+{
+  "name": "react-formation",
+  "version": "1.0.0",
+  "description": "A React form builder with an emphasis on form submission, validation and customization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SizweMalobola/react-formation.git"
+  },
+  "keywords": [
+    "react",
+    "forms",
+    "validation",
+    "customization"
+  ],
+  "author": "Sizwe Malobola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SizweMalobola/react-formation/issues"
+  },
+  "homepage": "https://github.com/SizweMalobola/react-formation#readme"
+}
