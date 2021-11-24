@@ -2,7 +2,7 @@
   "name": "@sizwe/react-formation",
   "version": "1.0.0",
   "description": "A React form builder with an emphasis on form submission, validation and customization",
-  "main": "src/Formation.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
