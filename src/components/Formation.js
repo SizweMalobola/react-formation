@@ -55,8 +55,9 @@ export const Input = ({
   return (
     <>
       {type === "checkbox" || type === "radio" ? (
-        <div className={type}>
+        <div className={`${type}-container`}>
           <input
+            className={type}
             style={styleObject}
             value={value}
             type={type}
@@ -67,11 +68,12 @@ export const Input = ({
         </div>
       ) : (
         <div
-          className={`${type} ${
+          className={`${
             isValid === true ? "valid" : isValid === false ? "error" : null
           } `}
         >
           <input
+            className={type}
             style={styleObject}
             value={value}
             type={type}
@@ -122,14 +124,18 @@ export const Select = ({
 }) => {
   return (
     <select
-      className={name}
+      className="select"
       style={styleObject}
       name={name}
       multiple={multiple}
     >
       {optionArray.map((innerArray, index) => {
         return (
-          <option key={index + innerArray[0]} value={innerArray[0]}>
+          <option
+            className="option"
+            key={index + innerArray[0]}
+            value={innerArray[0]}
+          >
             {innerArray[1]}
           </option>
         );
@@ -147,9 +153,9 @@ export const TextArea = ({
 }) => {
   return (
     <textarea
+      className="textarea"
       style={styleObject}
       name={name}
-      id={name}
       cols={cols}
       required={required}
       placeholder={placeholder}

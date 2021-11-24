@@ -6,6 +6,7 @@ import {
   Label,
   Submit,
   Select,
+  TextArea,
 } from "../components/Formation";
 import "../index.css";
 const stories = storiesOf("App Test", module);
@@ -26,6 +27,8 @@ stories.add("App", () => {
             ["jhb", "Johannesburg"],
           ]}
         />
+        <Label name="textarea" label="write us a message" />
+        <TextArea name="message" placeholder="Write message" />
         <Submit />
       </FormContainer>
     </>

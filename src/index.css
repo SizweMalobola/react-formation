@@ -76,13 +76,13 @@ input[type="button"]:hover {
 }
 
 /* radio & checkbox */
-.radio,
-.checkbox {
+.radio-container,
+.checkbox-container {
   display: flex;
   align-items: center;
 }
-.radio input,
-.checkbox input {
+.radio-container input,
+.checkbox-container input {
   margin-right: 5px;
 }
 /* label */
