@@ -8,7 +8,6 @@ import {
   Select,
   TextArea,
 } from "../components/Formation";
-import "../index.css";
 const stories = storiesOf("App Test", module);
 
 stories.add("App", () => {

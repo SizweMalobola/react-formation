@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
 import "../index.css";
+import React, { useEffect, useState } from "react";
 
 // Form
 export const FormContainer = ({ endpoint, children, styleObject = null }) => {
