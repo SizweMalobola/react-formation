@@ -1,6 +1,6 @@
 {
   "name": "@sizwe/react-formation",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React form builder with an emphasis on form submission, validation and customization",
   "main": "dist/index.js",
   "scripts": {
